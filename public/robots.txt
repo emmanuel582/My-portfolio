@@ -4,4 +4,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://your-domain.com/sitemap.xml 
+Sitemap: https://your-portfolio.vercel.app/sitemap.xml 
