@@ -5,6 +5,7 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   plugins: [react()],
   build: {
+    target: 'es2015',
     rollupOptions: {
       external: [],
       output: {
@@ -16,9 +17,13 @@ export default defineConfig({
         }
       }
     },
-    chunkSizeWarningLimit: 1000
+    chunkSizeWarningLimit: 1000,
+    sourcemap: false
   },
   optimizeDeps: {
     include: ['react', 'react-dom', 'react-router-dom']
+  },
+  ssr: {
+    noExternal: ['react-router-dom']
   }
 })
