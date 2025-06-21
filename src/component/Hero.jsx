@@ -1,14 +1,7 @@
 import { motion } from 'framer-motion';
-import Particles from 'react-tsparticles';
-import { loadFull } from 'tsparticles';
 import avatarImage from '../assets/Avatar.jpg';
-import { useCallback } from 'react';
 
 function Hero() {
-  const particlesInit = useCallback(async (engine) => {
-    await loadFull(engine);
-  }, []);
-
   const scrollToContact = () => {
     const contactSection = document.querySelector('.contact-section');
     if (contactSection) {
@@ -21,21 +14,21 @@ function Hero() {
 
   return (
     <div className="hero-wrapper">
-      <Particles
-        id="tsparticles"
-        init={particlesInit}
-        options={{
-          fullScreen: false,
-          particles: {
-            number: { value: 100 },
-            color: { value: '#000' },
-            shape: { type: 'circle' },
-            opacity: { value: 0.4 },
-            size: { value: 2 },
-            move: { enable: true, speed: 1 },
-          },
-        }}
-      />
+      <div className="animated-background">
+        <div className="floating-shapes">
+          {[...Array(20)].map((_, i) => (
+            <div
+              key={i}
+              className="floating-shape"
+              style={{
+                left: `${Math.random() * 100}%`,
+                animationDelay: `${Math.random() * 20}s`,
+                animationDuration: `${15 + Math.random() * 10}s`
+              }}
+            />
+          ))}
+        </div>
+      </div>
 
       <motion.div
         className="avatar-container"
