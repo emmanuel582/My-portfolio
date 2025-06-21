@@ -1,38 +1,62 @@
-import React from 'react';
-import { Helmet } from 'react-helmet';
-import profileImage from '../assets/Avatar.jpg';
+import { useEffect } from 'react';
 
-const SEO = ({ title, description, name, type = 'website', image, url }) => {
-  const defaultDescription = "I'm Oyebimpe Emmanuel, a software and robotics engineer specializing in creating high-performance web applications and intelligent systems. Explore my projects and get in touch.";
-  const siteName = "Oyebimpe Emmanuel's Portfolio";
-  const defaultImage = `https://your-domain.com${profileImage}`; // Replace with your actual domain
-  const siteUrl = url || 'https://your-domain.com'; // Replace with your actual domain
+const SEO = ({ title, description, image, url }) => {
+  useEffect(() => {
+    // Update document title
+    document.title = title || 'Oyebimpe Emmanuel - Software & Robotics Engineer';
 
-  return (
-    <Helmet>
-      {/* Standard metadata tags */}
-      <title>{title ? `${title} | ${siteName}` : siteName}</title>
-      <meta name="description" content={description || defaultDescription} />
-      <link rel="canonical" href={siteUrl} />
+    // Update or create meta tags
+    const updateMetaTag = (name, content) => {
+      let meta = document.querySelector(`meta[name="${name}"]`);
+      if (!meta) {
+        meta = document.createElement('meta');
+        meta.name = name;
+        document.head.appendChild(meta);
+      }
+      meta.content = content;
+    };
 
-      {/* Open Graph / Facebook */}
-      <meta property="og:type" content={type} />
-      <meta property="og:title" content={title || siteName} />
-      <meta property="og:description" content={description || defaultDescription} />
-      <meta property="og:site_name" content={siteName} />
-      <meta property="og:url" content={siteUrl} />
-      <meta property="og:image" content={image || defaultImage} />
-      <meta property="og:image:width" content="1200" />
-      <meta property="og:image:height" content="630" />
+    const updatePropertyTag = (property, content) => {
+      let meta = document.querySelector(`meta[property="${property}"]`);
+      if (!meta) {
+        meta = document.createElement('meta');
+        meta.setAttribute('property', property);
+        document.head.appendChild(meta);
+      }
+      meta.content = content;
+    };
 
-      {/* Twitter */}
-      <meta name="twitter:card" content="summary_large_image" />
-      <meta name="twitter:creator" content="@your-twitter-handle" />
-      <meta name="twitter:title" content={title || siteName} />
-      <meta name="twitter:description" content={description || defaultDescription} />
-      <meta name="twitter:image" content={image || defaultImage} />
-    </Helmet>
-  );
+    // Update meta tags
+    updateMetaTag('description', description || 'Software and Robotics Engineer specializing in innovative solutions and cutting-edge technology.');
+    updateMetaTag('keywords', 'Software Engineer, Robotics Engineer, React, JavaScript, Python, Web Development, Mobile Development');
+    updateMetaTag('author', 'Oyebimpe Emmanuel');
+    updateMetaTag('robots', 'index, follow');
+
+    // Open Graph tags
+    updatePropertyTag('og:title', title || 'Oyebimpe Emmanuel - Software & Robotics Engineer');
+    updatePropertyTag('og:description', description || 'Software and Robotics Engineer specializing in innovative solutions and cutting-edge technology.');
+    updatePropertyTag('og:image', image || '/src/assets/Avatar.jpg');
+    updatePropertyTag('og:url', url || window.location.href);
+    updatePropertyTag('og:type', 'website');
+
+    // Twitter Card tags
+    updatePropertyTag('twitter:card', 'summary_large_image');
+    updatePropertyTag('twitter:title', title || 'Oyebimpe Emmanuel - Software & Robotics Engineer');
+    updatePropertyTag('twitter:description', description || 'Software and Robotics Engineer specializing in innovative solutions and cutting-edge technology.');
+    updatePropertyTag('twitter:image', image || '/src/assets/Avatar.jpg');
+
+    // Canonical URL
+    let canonical = document.querySelector('link[rel="canonical"]');
+    if (!canonical) {
+      canonical = document.createElement('link');
+      canonical.rel = 'canonical';
+      document.head.appendChild(canonical);
+    }
+    canonical.href = url || window.location.href;
+
+  }, [title, description, image, url]);
+
+  return null;
 };
 
 export default SEO; 
