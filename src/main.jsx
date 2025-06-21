@@ -1,7 +1,6 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import { BrowserRouter, Routes, Route, useLocation, useNavigate } from 'react-router-dom'
-import { HelmetProvider } from 'react-helmet-async'
 import './index.css'
 import '../cursor-handler.js';
 import Header from "./component/Header.jsx"
@@ -123,122 +122,120 @@ const FadeInWrapper = ({ children }) => (
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <HelmetProvider>
-      <BrowserRouter>
-        <SEO />
-        <ScrollToTop />
-        <Header />
-        <Routes>
-          <Route path="/" element={
+    <BrowserRouter>
+      <SEO />
+      <ScrollToTop />
+      <Header />
+      <Routes>
+        <Route path="/" element={
+          <div className="overallcontainer">
+            <Hero />
+            <GlassCarousel />
+            <About />
+            <StackCarousel />
+            <Project />
+            <ProfessionalTimeline />
+            <TechStack/>
+            <Contact/>
+          </div>
+        } />
+        <Route path="/reviews" element={
+          <FadeInWrapper>
+            <Reviews />
+          </FadeInWrapper>
+        } />
+        <Route path="/projects" element={
+          <FadeInWrapper>
             <div className="overallcontainer">
-              <Hero />
-              <GlassCarousel />
-              <About />
-              <StackCarousel />
-              <Project />
-              <ProfessionalTimeline />
-              <TechStack/>
-              <Contact/>
+              <Projects />
             </div>
-          } />
-          <Route path="/reviews" element={
-            <FadeInWrapper>
-              <Reviews />
-            </FadeInWrapper>
-          } />
-          <Route path="/projects" element={
-            <FadeInWrapper>
-              <div className="overallcontainer">
-                <Projects />
-              </div>
-            </FadeInWrapper>
-          } />
-          <Route path="/projects/cinestar" element={
-            <FadeInWrapper>
-              <div className="overallcontainer">
-                <CineStar />
-              </div>
-            </FadeInWrapper>
-          } />
-          <Route path="/projects/clean-board" element={
-            <FadeInWrapper>
-              <div className="overallcontainer">
-                <CleanBoard />
-              </div>
-            </FadeInWrapper>
-          } />
-          <Route path="/projects/amaze-visuals" element={
-            <FadeInWrapper>
-              <div className="overallcontainer">
-                <AmazeVisuals />
-              </div>
-            </FadeInWrapper>
-          } />
-          <Route path="/projects/apple-experience" element={
-            <FadeInWrapper>
-              <div className="overallcontainer">
-                <AppleExperience />
-              </div>
-            </FadeInWrapper>
-          } />
-          <Route path="/projects/outdoor-landscape" element={
-            <FadeInWrapper>
-              <div className="overallcontainer">
-                <OutdoorLandscape />
-              </div>
-            </FadeInWrapper>
-          } />
-          <Route path="/projects/instant-download" element={
-            <FadeInWrapper>
-              <div className="overallcontainer">
-                <InstantDownload />
-              </div>
-            </FadeInWrapper>
-          } />
-          <Route path="/projects/just-emma" element={
-            <FadeInWrapper>
-              <div className="overallcontainer">
-                <JustEmma />
-              </div>
-            </FadeInWrapper>
-          } />
-          <Route path="/projects/final-clue" element={
-            <FadeInWrapper>
-              <div className="overallcontainer">
-                <FinalClue />
-              </div>
-            </FadeInWrapper>
-          } />
-          <Route path="/projects/beta-buddy" element={
-            <FadeInWrapper>
-              <div className="overallcontainer">
-                <BetaBuddy />
-              </div>
-            </FadeInWrapper>
-          } />
-          <Route path="/projects/open-port" element={
-            <FadeInWrapper>
-              <div className="overallcontainer">
-                <OpenPort />
-              </div>
-            </FadeInWrapper>
-          } />
-          <Route path="/projects/crypto-pulse" element={
-            <FadeInWrapper>
-              <div className="overallcontainer">
-                <CryptoPulse />
-              </div>
-            </FadeInWrapper>
-          } />
-          <Route path="/projects/smart-stack" element={
-            <FadeInWrapper>
-              <div className="overallcontainer">
-                <SmartStack />
-              </div>
-            </FadeInWrapper>
-          } />
-        </Routes>
-      </BrowserRouter>
-    </HelmetProvider>
+          </FadeInWrapper>
+        } />
+        <Route path="/projects/cinestar" element={
+          <FadeInWrapper>
+            <div className="overallcontainer">
+              <CineStar />
+            </div>
+          </FadeInWrapper>
+        } />
+        <Route path="/projects/clean-board" element={
+          <FadeInWrapper>
+            <div className="overallcontainer">
+              <CleanBoard />
+            </div>
+          </FadeInWrapper>
+        } />
+        <Route path="/projects/amaze-visuals" element={
+          <FadeInWrapper>
+            <div className="overallcontainer">
+              <AmazeVisuals />
+            </div>
+          </FadeInWrapper>
+        } />
+        <Route path="/projects/apple-experience" element={
+          <FadeInWrapper>
+            <div className="overallcontainer">
+              <AppleExperience />
+            </div>
+          </FadeInWrapper>
+        } />
+        <Route path="/projects/outdoor-landscape" element={
+          <FadeInWrapper>
+            <div className="overallcontainer">
+              <OutdoorLandscape />
+            </div>
+          </FadeInWrapper>
+        } />
+        <Route path="/projects/instant-download" element={
+          <FadeInWrapper>
+            <div className="overallcontainer">
+              <InstantDownload />
+            </div>
+          </FadeInWrapper>
+        } />
+        <Route path="/projects/just-emma" element={
+          <FadeInWrapper>
+            <div className="overallcontainer">
+              <JustEmma />
+            </div>
+          </FadeInWrapper>
+        } />
+        <Route path="/projects/final-clue" element={
+          <FadeInWrapper>
+            <div className="overallcontainer">
+              <FinalClue />
+            </div>
+          </FadeInWrapper>
+        } />
+        <Route path="/projects/beta-buddy" element={
+          <FadeInWrapper>
+            <div className="overallcontainer">
+              <BetaBuddy />
+            </div>
+          </FadeInWrapper>
+        } />
+        <Route path="/projects/open-port" element={
+          <FadeInWrapper>
+            <div className="overallcontainer">
+              <OpenPort />
+            </div>
+          </FadeInWrapper>
+        } />
+        <Route path="/projects/crypto-pulse" element={
+          <FadeInWrapper>
+            <div className="overallcontainer">
+              <CryptoPulse />
+            </div>
+          </FadeInWrapper>
+        } />
+        <Route path="/projects/smart-stack" element={
+          <FadeInWrapper>
+            <div className="overallcontainer">
+              <SmartStack />
+            </div>
+          </FadeInWrapper>
+        } />
+      </Routes>
+    </BrowserRouter>
   </StrictMode>,
 )

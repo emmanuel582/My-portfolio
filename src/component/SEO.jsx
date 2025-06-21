@@ -1,5 +1,5 @@
 import React from 'react';
-import { Helmet } from 'react-helmet-async';
+import { Helmet } from 'react-helmet';
 import profileImage from '../assets/Avatar.jpg';
 
 const SEO = ({ title, description, name, type = 'website', image, url }) => {
