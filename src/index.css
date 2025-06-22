@@ -406,8 +406,10 @@ body {
 
 .hero-buttons {
   display: flex;
-  gap: 1rem;
-  margin-top: 1rem;
+  flex-direction: row;
+  gap: 0.5rem;
+  align-items: center;
+  justify-content: flex-start;
   width: 100%;
   flex-wrap: wrap;
 }
@@ -679,11 +681,11 @@ body {
   .hero-container,
   .carousel-container,
   .content-section {
-    text-align: center !important;
-    align-items: center !important;
-    margin-left: auto !important;
+    text-align: left !important;
+    align-items: flex-start !important;
+    margin-left: 0 !important;
     margin-right: auto !important;
-    justify-content: center !important;
+    justify-content: flex-start !important;
   }
 }
 
@@ -709,7 +711,7 @@ body {
   }
 
   .hero-wrapper {
-    padding-top: 10rem;
+    padding-top: 3rem;
   }
 
   .hero-container {
@@ -723,11 +725,16 @@ body {
     align-items: flex-start;
   }
 
-  .hire-btn {
-    max-width: 120px;
-  }
+  .hire-btn,
   .status-indicator {
-    max-width: 250px;
+    width: auto;
+    min-width: 120px;
+    max-width: 100%;
+    font-size: 14px;
+    padding: 10px 16px;
+    flex: 0 0 auto;
+    justify-content: center;
+    text-align: center;
   }
 
   .glass-card {
@@ -776,7 +783,7 @@ body {
   }
 
   .hero-wrapper {
-    padding-top: 5rem;
+    padding-top: 3rem;
   }
 
   .avatar-image {
@@ -800,8 +807,9 @@ body {
     max-width: 100%;
     font-size: 14px;
     padding: 10px 16px;
-    flex: 1 1 auto;
+    flex: 0 0 auto;
     justify-content: center;
+    text-align: center;
   }
 
   .glass-card {
@@ -833,11 +841,11 @@ body {
   .hero-container,
   .carousel-container,
   .content-section {
-    text-align: center !important;
-    align-items: center !important;
-    margin-left: auto !important;
+    text-align: left !important;
+    align-items: flex-start !important;
+    margin-left: 0 !important;
     margin-right: auto !important;
-    justify-content: center !important;
+    justify-content: flex-start !important;
   }
 }
 
@@ -861,22 +869,26 @@ body {
   .status-indicator {
     font-size: 12px;
     padding: 8px 16px;
+    text-align: center;
   }
 }
 
 /* About */
 .About {
   padding-top: 10rem;
+  text-align: left;
 }
 .About h2 {
   font-weight: bolder;
   font-size: 2rem;
+  text-align: left;
 }
 .abouttext {
   padding-top: 2rem;
   color: #666;
   line-height: 1.6;
   font-size: 1rem;
+  text-align: left;
 }
 .aboutimgcon {
   position: relative;

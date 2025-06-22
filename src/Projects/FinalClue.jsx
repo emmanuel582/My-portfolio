@@ -233,21 +233,40 @@ const FinalClue = () => {
           }
           @media (max-width: 768px) {
             .overall-container {
-              padding: 0 1rem;
-              margin: 6rem auto 2rem;
+              padding: 0 1.5rem;
+              margin: 6rem auto 3rem;
             }
             .project-title {
               font-size: 2.2rem;
-            }
-            .project-meta {
-              gap: 2rem;
             }
             .section-row {
               flex-direction: column;
               gap: 0.5rem;
             }
+            .section-label {
+              min-width: auto;
+            }
+            .project-meta {
+              flex-direction: column;
+              gap: 1.5rem;
+            }
+            .meta-item {
+              gap: 1rem;
+            }
             .secondary-images {
               grid-template-columns: 1fr;
+              gap: 1rem;
+            }
+            .main-image-container,
+            .secondary-image-container {
+              padding: 1rem;
+            }
+            .visit-project-btn {
+              width: 100%;
+              justify-content: center;
+              text-align: center;
+              padding: 1rem 1.5rem;
+              font-size: 1rem;
             }
           }
         `}</style>

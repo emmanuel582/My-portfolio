@@ -256,6 +256,13 @@ const CryptoPulse = () => {
             .secondary-image-container {
               padding: 1rem;
             }
+            .visit-project-btn {
+              width: 100%;
+              justify-content: center;
+              text-align: center;
+              padding: 1rem 1.5rem;
+              font-size: 1rem;
+            }
           }
         `}</style>
         <div className="project-header">
