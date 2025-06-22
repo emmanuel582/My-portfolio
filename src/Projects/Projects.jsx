@@ -153,7 +153,7 @@ function Projects() {
     <>
       <SEO 
         title="All Projects"
-        description="Browse the full collection of projects by Oyebimpe Emmanuel, showcasing a wide range of skills in software engineering, web development, and robotics."
+        description="Browse the full collection of projects by Oyebimpe Emmanuel, showcasing a wide range of skills in software engineering, web development, and penetration testing."
         url="https://emmanueloyebimpe.vercel.app/proj"
       />
       <Header />

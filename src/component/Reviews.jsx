@@ -28,7 +28,7 @@ const Reviews = () => {
     <>
       <SEO
         title="Reviews & Testimonials"
-        description="Read what clients and colleagues are saying about Oyebimpe Emmanuel's work in software engineering, web development, and robotics."
+        description="Read what clients and colleagues are saying about Oyebimpe Emmanuel's work in software engineering, web development, and penetration testing."
         url="https://emmanueloyebimpe.vercel.app/reviews"
       />
       <motion.div 
