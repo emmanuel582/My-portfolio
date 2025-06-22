@@ -2,14 +2,36 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import AppleExperienceV1 from '../assets/ProjectAsset/AppleExperienceV1.png';
+import AppleExperiencev2 from '../assets/ProjectAsset/AppleExperiencev2.png';
 import CinetsarV1 from '../assets/ProjectAsset/CinetsarV1.png';
+import CinestarV2 from '../assets/ProjectAsset/CinestarV2.png';
+import CineStarv3 from '../assets/ProjectAsset/CineStarv3.png';
 import CleanBoardv1 from '../assets/ProjectAsset/CleanBoardv1.png';
+import CleanBoardV2 from '../assets/ProjectAsset/CleanBoardV2.png';
+import CleanBoardv3 from '../assets/ProjectAsset/CleanBoardv3.png';
 import AmazeVisualsV1 from '../assets/ProjectAsset/AmazeVisualsV1.png';
+import AmazeVisualsV2 from '../assets/ProjectAsset/AmazeVisualsV2.png';
+import AmazeVisualsv3 from '../assets/ProjectAsset/AmazeVisualsv3.png';
 import OutdoorLandcsapeV1 from '../assets/ProjectAsset/OutdoorLandcsapeV1.png';
+import OutdoorLandscapeV2 from '../assets/ProjectAsset/OutdoorLandscapeV2.png';
+import OutDoorLandscapeV3 from '../assets/ProjectAsset/OutDoorLandscapeV3.png';
 import InstantDownloadV1 from '../assets/ProjectAsset/InstantDownloadV1.png';
+import InstantDowloadv2 from '../assets/ProjectAsset/InstantDowloadv2.png';
+import InstantDownloadv3 from '../assets/ProjectAsset/InstantDownloadv3.png';
 import JustEmmaV1 from '../assets/ProjectAsset/JustEmmaV1.png';
+import JustEmmav2 from '../assets/ProjectAsset/JustEmmav2.png';
 import OpenPortv1 from '../assets/ProjectAsset/OpenPortv1.png';
+import Openportv2 from '../assets/ProjectAsset/Openportv2.png';
+import Openportv3 from '../assets/ProjectAsset/Openportv3.png';
 import SmartStackv1 from '../assets/ProjectAsset/SmartStackv1.png';
+import SmartStackv2 from '../assets/ProjectAsset/SmartStackv2.png';
+import SmartStackv3 from '../assets/ProjectAsset/SmartStackv3.png';
+import FinalClueV1 from '../assets/ProjectAsset/FinalClueV1.png';
+import FinalClueV2 from '../assets/ProjectAsset/FinalClueV2.png';
+import FinalClueV3 from '../assets/ProjectAsset/FinalClueV3.png';
+import BEtaBuddyV1 from '../assets/ProjectAsset/BEtaBuddyV1.png';
+import BetaBuddyV2 from '../assets/ProjectAsset/BetaBuddyV2.png';
+import BetaBuddyV3 from '../assets/ProjectAsset/BetaBuddyV3.png';
 import { ChevronRight } from 'lucide-react';
 import Footer from '../component/Footer';
 import Header from '../component/Header';
@@ -19,84 +41,85 @@ const projects = [
   {
     title: 'Apple Experience 3D',
     description: 'Revolutionary 3D product visualization engine that transforms how users interact with Apple devices. Built with Three.js and WebGL shaders, featuring real-time ray tracing, physics-based material rendering, and gesture-controlled navigation. This immersive experience delivers photorealistic device interactions that blur the line between digital and physical.',
-    imgSrc: AppleExperienceV1,
+    imgSrc: AppleExperiencev2,
     link: '/projects/apple-experience',
     stack: ['Three.js', 'WebGL', 'GSAP', 'JavaScript', 'GLSL', 'Touch Events', 'Custom Shaders']
   },
   {
     title: 'CineStar – Movie Explorer',
     description: 'Next-generation entertainment discovery platform powered by machine learning recommendation algorithms and real-time data processing. Features advanced NLP sentiment analysis for reviews, dynamic content curation using collaborative filtering, and seamless API integrations with TMDB. Dark-mode UI with micro-animations creates an addictive user experience.',
-    imgSrc: CinetsarV1,
+    imgSrc: CineStarv3,
     link: '/projects/cinestar',
     stack: ['React', 'NLP.js', 'TailwindCSS', 'TMDB API', 'Axios', 'Redux', 'Framer Motion', 'Node.js', 'Express']
   },
   {
     title: 'Clean Board SaaS',
     description: 'Enterprise-grade project management SaaS built with microservices architecture and real-time WebSocket communication. Implements advanced state management with Redux Toolkit, automated workflow triggers, and intelligent task prioritization using ML algorithms. Features robust authentication, role-based permissions, and scalable cloud infrastructure.',
-    imgSrc: CleanBoardv1,
+    imgSrc: CleanBoardv3,
     link: '/projects/clean-board',
     stack: ['React', 'Node.js', 'MongoDB', 'WebSockets', 'Redux Toolkit', 'Firebase', 'AWS EC2', 'Docker']
   },
   {
     title: 'Amaze Visuals Portfolio',
     description: 'Award-worthy creative showcase platform engineered with performance optimization and conversion psychology. Implements lazy loading, progressive image enhancement, and smooth parallax scrolling using Intersection Observer API. Strategic UX design patterns maximize client engagement and project inquiries.',
-    imgSrc: AmazeVisualsV1,
+    imgSrc: AmazeVisualsv3,
     link: '/projects/amaze-visuals',
     stack: ['Next.js', 'SCSS', 'Framer Motion', 'Intersection Observer API', 'Cloudinary', 'React Router']
   },
   {
     title: 'Outdoor Landscape Design',
     description: 'Professional-grade landscape design platform featuring advanced 3D visualization and AI-powered design recommendations. Implements real-time rendering with WebGL, plant database integration, and automated project cost estimation. Features collaborative design tools, weather simulation, and sustainable design recommendations.',
-    imgSrc: OutdoorLandcsapeV1,
+    imgSrc: OutDoorLandscapeV3,
     link: '/projects/outdoor-landscape',
     stack: ['React', 'Three.js', 'WebGL', 'Node.js', 'MongoDB', 'AWS', 'AI/ML', 'CAD Integration']
   },
   {
     title: "InstantDownload",
     description: "Chrome extension powerhouse built with manifest V3 and advanced content script injection. Features intelligent video detection algorithms, multi-platform API integrations (TikTok, Instagram, YouTube), and optimized download streaming with quality selection. Implements background service workers for seamless performance across social platforms.",
-    imgSrc: InstantDownloadV1,
+    imgSrc: InstantDownloadv3,
     link: '/projects/instant-download',
     stack: ['JavaScript', 'Chrome Extension (Manifest V3)', 'Service Workers', 'YouTube API', 'Insta API', 'TikTok Downloader', 'Regex', 'FFmpeg']
   },
   {
     title: "JustEmma",
     description: "Autonomous social media intelligence bot leveraging GPT integration and advanced web scraping. Features Reddit trend analysis, Twitter sentiment monitoring, and intelligent content scheduling using NLP algorithms. Implements job application automation with resume parsing and lead generation through behavioral pattern recognition.",
-    imgSrc: JustEmmaV1,
+    imgSrc: JustEmmav2,
     link: '/projects/just-emma',
     stack: ['Python', 'Puppeteer', 'Playwright', 'OpenAI GPT', 'NLP.js', 'Twit.js', 'Cheerio', 'Node.js', 'Express', 'MongoDB']
   },
   {
     title: "FinalClue",
     description: "Forensic analysis CLI tool trained on extensive medical datasets using TensorFlow and scikit-learn. Implements deep learning models for mortality prediction with 94% accuracy, featuring natural language processing for autopsy report analysis and computer vision for medical imaging interpretation. Revolutionary tool for forensic investigations.",
-    imgSrc: AmazeVisualsV1,
+    imgSrc: FinalClueV1,
     link: '/projects/final-clue',
     stack: ['Python', 'TensorFlow', 'scikit-learn', 'NLTK', 'OpenCV', 'CLI', 'Pandas', 'Matplotlib', 'Seaborn']
   },
   {
     title: "BetaBuddy",
     description: "Intelligent Discord communication bot powered by Google Translate API and custom NLP models. Features real-time language detection with 99.7% accuracy, automated moderation using sentiment analysis, and smart command recognition. Implements Redis caching for lightning-fast response times and supports 100+ languages seamlessly.",
-    imgSrc: AmazeVisualsV1,
+    imgSrc: BetaBuddyV3,
     link: '/projects/beta-buddy',
     stack: ['Node.js', 'Discord.js', 'Google Translate API', 'LangDetect', 'Redis', 'Sentiment.js', 'MongoDB', 'NLP.js']
   },
   {
     title: "OpenPort",
     description: "Game-changing JavaScript library that eliminates API complexity through intelligent LLM integration and machine learning automation. Features zero-config image generation, sentiment analysis pipelines, and web scraping modules. Built with TypeScript and modular architecture, this library empowers developers to build powerful applications without API key management headaches.",
-    imgSrc: OpenPortv1,
+    imgSrc: Openportv3,
     link: '/projects/open-port',
     stack: ['TypeScript', 'JavaScript', 'LLM (Gemini/OpenAI)', 'Cheerio', 'Playwright', 'Puppeteer', 'TensorFlow.js', 'NLP.js']
   },
   {
     title: "CryptoPulse",
     description: "Professional-grade WhatsApp trading bot integrated with blockchain APIs and real-time market data streams. Features whale movement detection using on-chain analysis, automated news sentiment scoring with NLP, and intelligent price alert systems. Implements WebSocket connections for millisecond-precision market updates and portfolio tracking.",
-    imgSrc: AmazeVisualsV1,
+    imgSrc: AmazeVisualsV2,
     link: '/projects/crypto-pulse',
-    stack: ['Node.js', 'WhatsApp Web.js', 'MongoDB', 'Blockchain.com API', 'CoinGecko API', 'NLP.js', 'Gemini', 'Redis']
+    stack: ['Node.js', 'WhatsApp Web.js', 'MongoDB', 'Blockchain.com API', 'CoinGecko API', 'NLP.js', 'Gemini', 'Redis'],
+    disabled: true
   },
   {
     title: "SmartStack",
     description: "Revolutionary SaaS platform that generates optimal project architectures using machine learning and code analysis algorithms. Features intelligent file structure generation, automated dependency optimization, and best-practice JSON schema creation. Eliminates development setup time by 80% through AI-powered project scaffolding and architecture recommendations.",
-    imgSrc: SmartStackv1,
+    imgSrc: SmartStackv3,
     link: '/projects/smart-stack',
     stack: ['Python', 'JavaScript', 'ESLint', 'AST Parser', 'AI Code Generator', 'HuggingFace Transformers', 'Next.js', 'JSON Schema', 'Express']
   }
@@ -131,7 +154,7 @@ function Projects() {
       <SEO 
         title="All Projects"
         description="Browse the full collection of projects by Oyebimpe Emmanuel, showcasing a wide range of skills in software engineering, web development, and robotics."
-        url="https://your-domain.com/proj"
+        url="https://emmanueloyebimpe.vercel.app/proj"
       />
       <Header />
       <div className="project-wrapper extended">
@@ -288,6 +311,26 @@ function Projects() {
             transform: translateX(4px);
           }
 
+          .project-btn:disabled {
+            background: #e0e0e0;
+            color: #999;
+            cursor: not-allowed;
+            opacity: 0.6;
+          }
+
+          .project-btn:disabled:hover .arrow {
+            transform: none;
+          }
+
+          .project-card.disabled {
+            opacity: 0.7;
+            pointer-events: none;
+          }
+
+          .project-card.disabled .project-image-box img {
+            cursor: not-allowed;
+          }
+
           .center-wrapper {
             display: flex;
             justify-content: center;
@@ -371,24 +414,36 @@ function Projects() {
         >
           {projects.map((project, idx) => (
             <motion.div 
-              className="project-card" 
+              className={`project-card ${project.disabled ? 'disabled' : ''}`}
               key={idx}
               variants={itemVariants}
             >
               <div className="project-image-box">
-                <Link to={project.link} style={{ display: 'block', width: '100%', height: '100%' }}>
-                  <img src={project.imgSrc} alt={`Screenshot of ${project.title} main interface`} style={{ cursor: 'pointer', width: '100%', height: '100%' }} />
-                </Link>
+                {project.disabled ? (
+                  <div style={{ display: 'block', width: '100%', height: '100%' }}>
+                    <img src={project.imgSrc} alt={`Screenshot of ${project.title} main interface`} style={{ cursor: 'not-allowed', width: '100%', height: '100%' }} />
+                  </div>
+                ) : (
+                  <Link to={project.link} style={{ display: 'block', width: '100%', height: '100%' }}>
+                    <img src={project.imgSrc} alt={`Screenshot of ${project.title} main interface`} style={{ cursor: 'pointer', width: '100%', height: '100%' }} />
+                  </Link>
+                )}
               </div>
               <div className="project-content">
                 <h3 className="project-title">{project.title}</h3>
                 <p className="project-desc">{project.description}</p>
-                <Link className="project-btn" to={project.link}>
-                  View Project <span className="arrow">&#8594;</span>
-                </Link>
+                {project.disabled ? (
+                  <button className="project-btn" disabled>
+                    Coming Soon <span className="arrow">&#8594;</span>
+                  </button>
+                ) : (
+                  <Link className="project-btn" to={project.link}>
+                    View Project <span className="arrow">&#8594;</span>
+                  </Link>
+                )}
               </div>
             </motion.div>
-          ))}   
+          ))}
         </motion.div>
       </div>
       <div style={{ marginBottom: '5rem' }}>

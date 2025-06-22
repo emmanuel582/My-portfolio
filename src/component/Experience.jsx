@@ -1,11 +1,22 @@
 import React from 'react';
+import Resume from '../assets/Resume.pdf';
 
 const ProfessionalTimeline = () => {
+    const handleDownloadResume = () => {
+        // Create a link element
+        const link = document.createElement('a');
+        link.href = Resume;
+        link.download = 'Oyebimpe_Emmanuel_Resume.pdf';
+        document.body.appendChild(link);
+        link.click();
+        document.body.removeChild(link);
+    };
+
     const experiences = [
         {
           title: "Fullstack Developer & Ethical Hacker",
           company: "Active Freelancer",
-          period: "Jan 2024 – Present",
+          period: "Jan 2025 – Present",
           location: "Remote",
           responsibilities: [
             "Identified and responsibly disclosed critical vulnerabilities on major platforms, enhancing user trust and platform resilience.",
@@ -45,7 +56,7 @@ const ProfessionalTimeline = () => {
         {
           title: "Frontend Developer Intern",
           company: "ALX Africa",
-          period: "Jan 2024 – Sep 2024",
+          period: "Jan 2025 – Sep 2025",
           location: "Remote",
           responsibilities: [
             "Delivered clean, modern interfaces for university platforms — ensuring intuitive navigation for both students and faculty.",
@@ -57,7 +68,7 @@ const ProfessionalTimeline = () => {
         {
             title: "Help Desk & IT Support Specialist",
             company: "Sharma Security Team",
-            period: "Jun 2024 – Aug 2024",
+            period: "Jun 2025 – Aug 2025",
             location: "Remote",
             responsibilities: [
               "Provided Tier 1 and Tier 2 support for system and network-related issues, resolving over 150 support tickets within SLA.",
@@ -70,7 +81,7 @@ const ProfessionalTimeline = () => {
         {
             title: "Medical Data Researcher & Frontend Developer",
             company: "UI Research Lab",
-            period: "Jan 2024 – Present",
+            period: "Jan 2025 – Present",
             location: "Remote",
             responsibilities: [
               "Analyzed vast datasets of medical case studies and patient trends to build visual insights for healthcare professionals.",
@@ -266,8 +277,7 @@ const ProfessionalTimeline = () => {
             cursor: 'pointer',
             transition: 'background-color 0.2s ease'
           }}
-          onMouseOver={(e) => e.target.style.backgroundColor = '#d97706'}
-          onMouseOut={(e) => e.target.style.backgroundColor = 'black'}
+          onClick={handleDownloadResume}
           >
             Download Resume
           </button>

@@ -2,6 +2,9 @@ import React, { useState } from 'react';
 import Footer from '../component/Footer';
 import SEO from '../component/SEO';
 import AmazeVisualsV1 from '../assets/ProjectAsset/AmazeVisualsV1.png';
+import BetaBuddyV3 from '../assets/ProjectAsset/BetaBuddyV3.png';
+import BetaBuddyV2 from '../assets/ProjectAsset/BetaBuddyV2.png';
+import BEtaBuddyV1 from '../assets/ProjectAsset/BEtaBuddyV1.png';
 
 const BetaBuddy = () => {
   const [previewImg, setPreviewImg] = useState(null);
@@ -17,9 +20,9 @@ const BetaBuddy = () => {
     <>
       <SEO
         title="BetaBuddy Discord Bot"
-        description="An intelligent Discord bot powered by the Google Translate API and custom NLP models, featuring real-time language detection and automated moderation."
-        image={AmazeVisualsV1}
-        url="https://your-domain.com/projects/beta-buddy"
+        description="Intelligent Discord communication bot powered by Google Translate API and custom NLP models."
+        image={BetaBuddyV3}
+        url="https://emmanueloyebimpe.vercel.app/projects/beta-buddy"
       />
       <div className="overall-container">
         <style jsx>{`
@@ -287,18 +290,14 @@ const BetaBuddy = () => {
         <div className="project-meta">
           <div className="meta-item">
             <div className="meta-label">Date</div>
-            <div className="meta-value">2024</div>
+            <div className="meta-value">2025</div>
           </div>
           <div className="meta-item">
             <div className="meta-label">Type</div>
             <div className="meta-value">Discord Bot</div>
           </div>
-          <div className="meta-item">
-            <div className="meta-label">Client</div>
-            <div className="meta-value">Personal</div>
-          </div>
         </div>
-        <a href="#" className="visit-project-btn" target="_blank" rel="noopener noreferrer">
+        <a href="https://github.com/emmanuel582/BetaBuddy" className="visit-project-btn" target="_blank" rel="noopener noreferrer">
           Visit Project
           <svg className="external-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
             <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/>
@@ -309,29 +308,29 @@ const BetaBuddy = () => {
         <div className="project-images">
           <div className="main-image-container">
             <img 
-              src="https://images.unsplash.com/photo-1614680376573-df3480f0c6ff?w=800&h=500&fit=crop" 
+              src={BetaBuddyV3} 
               alt="BetaBuddy main interface"
               className="main-image"
-              onClick={() => openPreview("https://images.unsplash.com/photo-1614680376573-df3480f0c6ff?w=800&h=500&fit=crop")}
+              onClick={() => openPreview(BetaBuddyV3)}
               style={{ cursor: 'pointer' }}
             />
           </div>
           <div className="secondary-images">
             <div className="secondary-image-container">
               <img 
-                src="https://images.unsplash.com/photo-1611606063065-ee7946f0787a?w=400&h=250&fit=crop" 
+                src={BetaBuddyV2} 
                 alt="BetaBuddy alternate view"
                 className="secondary-image"
-                onClick={() => openPreview("https://images.unsplash.com/photo-1611606063065-ee7946f0787a?w=400&h=250&fit=crop")}
+                onClick={() => openPreview(BetaBuddyV2)}
                 style={{ cursor: 'pointer' }}
               />
             </div>
             <div className="secondary-image-container">
               <img 
-                src="https://images.unsplash.com/photo-1593720213428-28a5b9e94613?w=400&h=250&fit=crop" 
+                src={BEtaBuddyV1} 
                 alt="BetaBuddy third view"
                 className="secondary-image"
-                onClick={() => openPreview("https://images.unsplash.com/photo-1593720213428-28a5b9e94613?w=400&h=250&fit=crop")}
+                onClick={() => openPreview(BEtaBuddyV1)}
                 style={{ cursor: 'pointer' }}
               />
             </div>

@@ -2,6 +2,7 @@
 import Footer from '../component/Footer';
 import SEO from '../component/SEO';
 import AmazeVisualsV1 from '../assets/ProjectAsset/AmazeVisualsV1.png';
+import AmazeVisualsV2 from '../assets/ProjectAsset/AmazeVisualsV2.png';
 
 const CryptoPulse = () => {
   const [previewImg, setPreviewImg] = useState(null);
@@ -17,9 +18,9 @@ const CryptoPulse = () => {
     <>
       <SEO
         title="CryptoPulse WhatsApp Bot"
-        description="A professional-grade WhatsApp trading bot with real-time market data, whale movement detection, and automated news sentiment scoring."
-        image={AmazeVisualsV1}
-        url="https://your-domain.com/projects/crypto-pulse"
+        description="Professional-grade WhatsApp trading bot integrated with blockchain APIs and real-time market data streams."
+        image={AmazeVisualsV2}
+        url="https://emmanueloyebimpe.vercel.app/projects/crypto-pulse"
       />
       <div className="overall-container">
         <style jsx>{`
@@ -287,15 +288,11 @@ const CryptoPulse = () => {
         <div className="project-meta">
           <div className="meta-item">
             <div className="meta-label">Date</div>
-            <div className="meta-value">2024</div>
+            <div className="meta-value">2025</div>
           </div>
           <div className="meta-item">
             <div className="meta-label">Type</div>
             <div className="meta-value">Trading Bot</div>
-          </div>
-          <div className="meta-item">
-            <div className="meta-label">Client</div>
-            <div className="meta-value">Personal</div>
           </div>
         </div>
         <a href="#" className="visit-project-btn" target="_blank" rel="noopener noreferrer">

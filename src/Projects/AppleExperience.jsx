@@ -18,9 +18,9 @@ const AppleExperience = () => {
     <>
       <SEO
         title="Apple Experience 3D"
-        description="A cutting-edge 3D Apple iPhone showcase built with modern web tech. Explore devices like never before with this futuristic product experience."
+        description="A cutting-edge 3D Apple iPhone showcase built with modern web tech — explore devices like never before."
         image={AppleExperienceV1}
-        url="https://your-domain.com/projects/apple-experience"
+        url="https://emmanueloyebimpe.vercel.app/projects/apple-experience"
       />
       <div className="overall-container">
         <style jsx>{`
@@ -284,15 +284,11 @@ const AppleExperience = () => {
         <div className="project-meta">
           <div className="meta-item">
             <div className="meta-label">Date</div>
-            <div className="meta-value">2024</div>
+            <div className="meta-value">2025</div>
           </div>
           <div className="meta-item">
             <div className="meta-label">Type</div>
             <div className="meta-value">Product Showcase</div>
-          </div>
-          <div className="meta-item">
-            <div className="meta-label">Client</div>
-            <div className="meta-value">Personal</div>
           </div>
         </div>
         <a href="https://appleexperience.vercel.app/" className="visit-project-btn" target="_blank" rel="noopener noreferrer">

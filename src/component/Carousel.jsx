@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 
 // Import your five unique images
-import image1 from '../assets/Avatar.jpg';
+import image1 from '../assets/certificate5.png';
 import image2 from '../assets/Certificate1.jpg';
 import image3 from '../assets/Certificate2.png';
 import image4 from '../assets/Certificate3.png';

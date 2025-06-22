@@ -20,7 +20,7 @@ const JustEmma = () => {
         title="JustEmma – Automated Content Creator"
         description="A Python-based automated content creator that turns raw text into stunning, animated videos with dynamic voiceovers and AI-generated visuals."
         image={JustEmmaV1}
-        url="https://your-domain.com/projects/just-emma"
+        url="https://emmanueloyebimpe.vercel.app/projects/just-emma"
       />
       <div className="overall-container">
         <style jsx>{`
@@ -290,18 +290,14 @@ const JustEmma = () => {
         <div className="project-meta">
           <div className="meta-item">
             <div className="meta-label">Date</div>
-            <div className="meta-value">2024</div>
+            <div className="meta-value">2025</div>
           </div>
           <div className="meta-item">
             <div className="meta-label">Type</div>
-            <div className="meta-value">AI Bot</div>
-          </div>
-          <div className="meta-item">
-            <div className="meta-label">Client</div>
-            <div className="meta-value">Personal</div>
+            <div className="meta-value">AI Content Creator</div>
           </div>
         </div>
-        <a href="#" className="visit-project-btn" target="_blank" rel="noopener noreferrer">
+        <a href="https://github.com/emmanuel582/Justemma" className="visit-project-btn" target="_blank" rel="noopener noreferrer">
           Visit Project
           <svg className="external-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
             <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/>

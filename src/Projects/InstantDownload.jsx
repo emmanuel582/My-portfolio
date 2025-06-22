@@ -22,7 +22,7 @@ const InstantDownload = () => {
         title="Instant Download – Link Saver"
         description="A lightning-fast link saving web app. One-click saving for YouTube, TikTok, and Instagram videos. Built for speed and simplicity."
         image={InstantDownloadV1}
-        url="https://your-domain.com/projects/instant-download"
+        url="https://emmanueloyebimpe.vercel.app/projects/instant-download"
       />
       <div className="overall-container">
         <style jsx>{`
@@ -325,19 +325,15 @@ const InstantDownload = () => {
         <div className="project-meta">
           <div className="meta-item">
             <div className="meta-label">Date</div>
-            <div className="meta-value">2024</div>
+            <div className="meta-value">2025</div>
           </div>
           <div className="meta-item">
             <div className="meta-label">Type</div>
-            <div className="meta-value">Browser Extension</div>
-          </div>
-          <div className="meta-item">
-            <div className="meta-label">Client</div>
-            <div className="meta-value">Personal</div>
+            <div className="meta-value">Chrome Extension</div>
           </div>
         </div>
 
-        <a href="#" className="visit-project-btn" target="_blank" rel="noopener noreferrer">
+        <a href="https://github.com/emmanuel582/InstantDownlaod" className="visit-project-btn" target="_blank" rel="noopener noreferrer">
           Visit Project
           <svg className="external-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
             <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/>

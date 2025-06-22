@@ -19,9 +19,9 @@ const CineStar = () => {
     <>
       <SEO
         title="CineStar – Movie Explorer"
-        description="A slick, dynamic movie discovery platform with trending trailers, cast previews, and a perfect dark UI. Built with React and the TMDB API."
+        description="A slick, dynamic movie discovery platform packed with trending trailers, cast previews & dark UI perfection."
         image={CinetsarV1}
-        url="https://your-domain.com/projects/cinestar"
+        url="https://emmanueloyebimpe.vercel.app/projects/cinestar"
       />
       <div className="overall-container">
         <style jsx>{`
@@ -285,15 +285,11 @@ const CineStar = () => {
         <div className="project-meta">
           <div className="meta-item">
             <div className="meta-label">Date</div>
-            <div className="meta-value">2024</div>
+            <div className="meta-value">2025</div>
           </div>
           <div className="meta-item">
             <div className="meta-label">Type</div>
             <div className="meta-value">SaaS Platform</div>
-          </div>
-          <div className="meta-item">
-            <div className="meta-label">Client</div>
-            <div className="meta-value">Personal</div>
           </div>
         </div>
         <a href="https://thecinestar.vercel.app/Home" className="visit-project-btn" target="_blank" rel="noopener noreferrer">

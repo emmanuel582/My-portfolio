@@ -85,7 +85,7 @@ function Project() {
             >
               <div className="project-image-box">
                 <div className="project-image-decoration">
-                  <span className="shopping-bag">🛍️</span>
+                  <span className="shopping-bag"></span>
                 </div>
                 <Link to={project.link} style={{ display: 'block', width: '100%', height: '100%' }}>
                   <img src={project.imgSrc} alt={`Screenshot of ${project.title} main interface`} style={{ cursor: 'pointer', width: '100%', height: '100%' }} />

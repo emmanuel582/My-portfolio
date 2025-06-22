@@ -1,7 +1,9 @@
 import React, { useState } from 'react';
 import Footer from '../component/Footer';
 import SEO from '../component/SEO';
-import AmazeVisualsV1 from '../assets/ProjectAsset/AmazeVisualsV1.png';
+import FinalClueV1 from '../assets/ProjectAsset/FinalClueV1.png';
+import FinalClueV2 from '../assets/ProjectAsset/FinalClueV2.png';
+import FinalClueV3 from '../assets/ProjectAsset/FinalClueV3.png';
 
 const FinalClue = () => {
   const [previewImg, setPreviewImg] = useState(null);
@@ -18,8 +20,8 @@ const FinalClue = () => {
       <SEO
         title="FinalClue Forensic Analysis Tool"
         description="A forensic analysis CLI tool that uses deep learning for mortality prediction with 94% accuracy, featuring NLP for autopsy report analysis."
-        image={AmazeVisualsV1}
-        url="https://your-domain.com/projects/final-clue"
+        image={FinalClueV1}
+        url="https://emmanueloyebimpe.vercel.app/projects/final-clue"
       />
       <div className="overall-container">
         <style jsx>{`
@@ -311,7 +313,7 @@ const FinalClue = () => {
           </div>
         </div>
 
-        <a href="#" className="visit-project-btn" target="_blank" rel="noopener noreferrer">
+        <a href="https://github.com/emmanuel582/FinalClue" className="visit-project-btn" target="_blank" rel="noopener noreferrer">
           Visit Project
           <svg className="external-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
             <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/>
@@ -323,29 +325,29 @@ const FinalClue = () => {
         <div className="project-images">
           <div className="main-image-container">
             <img 
-              src="https://images.unsplash.com/photo-1559757148-5c350d0d3c56?w=800&h=500&fit=crop" 
+              src={FinalClueV1} 
               alt="FinalClue main interface"
               className="main-image"
-              onClick={() => openPreview("https://images.unsplash.com/photo-1559757148-5c350d0d3c56?w=800&h=500&fit=crop")}
+              onClick={() => openPreview(FinalClueV1)}
               style={{ cursor: 'pointer' }}
             />
           </div>
           <div className="secondary-images">
             <div className="secondary-image-container">
               <img 
-                src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1f?w=400&h=250&fit=crop" 
+                src={FinalClueV2} 
                 alt="FinalClue alternate view"
                 className="secondary-image"
-                onClick={() => openPreview("https://images.unsplash.com/photo-1576091160399-112ba8d25d1f?w=400&h=250&fit=crop")}
+                onClick={() => openPreview(FinalClueV2)}
                 style={{ cursor: 'pointer' }}
               />
             </div>
             <div className="secondary-image-container">
               <img 
-                src="https://images.unsplash.com/photo-1559757148-5c350d0d3c56?w=400&h=250&fit=crop" 
+                src={FinalClueV3} 
                 alt="FinalClue third view"
                 className="secondary-image"
-                onClick={() => openPreview("https://images.unsplash.com/photo-1559757148-5c350d0d3c56?w=400&h=250&fit=crop")}
+                onClick={() => openPreview(FinalClueV3)}
                 style={{ cursor: 'pointer' }}
               />
             </div>

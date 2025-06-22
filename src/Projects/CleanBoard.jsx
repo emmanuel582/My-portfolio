@@ -19,9 +19,9 @@ const CleanBoard = () => {
     <>
       <SEO
         title="Clean Board SaaS"
-        description="A full-fledged SaaS dashboard for modern teams, featuring real-time task control, smooth UX, and intuitive team workflow boards."
+        description="A full-fledged SaaS dashboard for modern teams. Think Trello meets sleek design — real-time task control, smooth UX, and intuitive team workflow boards."
         image={CleanBoardv1}
-        url="https://your-domain.com/projects/clean-board"
+        url="https://emmanueloyebimpe.vercel.app/projects/clean-board"
       />
       <div className="overall-container">
         <style jsx>{`
@@ -285,15 +285,11 @@ const CleanBoard = () => {
         <div className="project-meta">
           <div className="meta-item">
             <div className="meta-label">Date</div>
-            <div className="meta-value">2024</div>
+            <div className="meta-value">2025</div>
           </div>
           <div className="meta-item">
             <div className="meta-label">Type</div>
             <div className="meta-value">SaaS Dashboard</div>
-          </div>
-          <div className="meta-item">
-            <div className="meta-label">Client</div>
-            <div className="meta-value">Personal</div>
           </div>
         </div>
         <a href="https://thecleanboard.vercel.app/" className="visit-project-btn" target="_blank" rel="noopener noreferrer">

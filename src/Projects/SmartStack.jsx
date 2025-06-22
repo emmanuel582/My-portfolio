@@ -21,7 +21,7 @@ const SmartStack = () => {
         title="SmartStack CRM"
         description="A powerful CRM for tech professionals, featuring AI-powered contact enrichment, GitHub integration, and a sleek, developer-first UI."
         image={SmartStackV1}
-        url="https://your-domain.com/projects/smart-stack"
+        url="https://emmanueloyebimpe.vercel.app/projects/smart-stack"
       />
       <div className="overall-container">
         <style jsx>{`
@@ -290,18 +290,14 @@ const SmartStack = () => {
         <div className="project-meta">
           <div className="meta-item">
             <div className="meta-label">Date</div>
-            <div className="meta-value">2024</div>
+            <div className="meta-value">2025</div>
           </div>
           <div className="meta-item">
             <div className="meta-label">Type</div>
-            <div className="meta-value">SaaS Platform</div>
-          </div>
-          <div className="meta-item">
-            <div className="meta-label">Client</div>
-            <div className="meta-value">Personal</div>
+            <div className="meta-value">CRM Platform</div>
           </div>
         </div>
-        <a href="#" className="visit-project-btn" target="_blank" rel="noopener noreferrer">
+        <a href="https://smart-stack.vercel.app/" className="visit-project-btn" target="_blank" rel="noopener noreferrer">
           Visit Project
           <svg className="external-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
             <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/>

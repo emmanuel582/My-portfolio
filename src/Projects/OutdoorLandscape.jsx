@@ -21,7 +21,7 @@ const OutdoorLandscape = () => {
         title="Outdoor Landscape Co."
         description="A serene and professional website for a high-end landscaping company, featuring stunning visuals and a clean, user-friendly design."
         image={OutdoorLandcsapeV1}
-        url="https://your-domain.com/projects/outdoor-landscape"
+        url="https://emmanueloyebimpe.vercel.app/projects/outdoor-landscape"
       />
       <div className="overall-container">
         <style jsx>{`
@@ -323,19 +323,15 @@ const OutdoorLandscape = () => {
         <div className="project-meta">
           <div className="meta-item">
             <div className="meta-label">Date</div>
-            <div className="meta-value">2024</div>
+            <div className="meta-value">2025</div>
           </div>
           <div className="meta-item">
             <div className="meta-label">Type</div>
             <div className="meta-value">Design Platform</div>
           </div>
-          <div className="meta-item">
-            <div className="meta-label">Client</div>
-            <div className="meta-value">Commercial</div>
-          </div>
         </div>
 
-        <a href="#" className="visit-project-btn" target="_blank" rel="noopener noreferrer">
+        <a href="https://outdoor-landscaping-website.vercel.app/" className="visit-project-btn" target="_blank" rel="noopener noreferrer">
           Visit Project
           <svg className="external-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
             <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/>

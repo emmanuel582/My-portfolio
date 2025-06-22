@@ -19,9 +19,9 @@ const AmazeVisuals = () => {
     <>
       <SEO
         title="Amaze Visuals Portfolio"
-        description="A minimalist visual experience for showcasing creative work, built with Next.js and Framer Motion. Designed to amaze, built to convert."
+        description="A minimalist visual experience for showcasing creative work. Designed to amaze, built to convert."
         image={AmazeVisualsV1}
-        url="https://your-domain.com/projects/amaze-visuals"
+        url="https://emmanueloyebimpe.vercel.app/projects/amaze-visuals"
       />
       <div className="overall-container">
         <style jsx>{`
@@ -321,15 +321,11 @@ const AmazeVisuals = () => {
         <div className="project-meta">
           <div className="meta-item">
             <div className="meta-label">Date</div>
-            <div className="meta-value">2024</div>
+            <div className="meta-value">2025</div>
           </div>
           <div className="meta-item">
             <div className="meta-label">Type</div>
             <div className="meta-value">Portfolio</div>
-          </div>
-          <div className="meta-item">
-            <div className="meta-label">Client</div>
-            <div className="meta-value">Personal</div>
           </div>
         </div>
 

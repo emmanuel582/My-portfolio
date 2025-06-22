@@ -2,80 +2,95 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <!-- Main Pages -->
   <url>
-    <loc>https://your-domain.com/</loc>
-    <priority>1.00</priority>
-    <changefreq>daily</changefreq>
-  </url>
-  <url>
-    <loc>https://your-domain.com/proj</loc>
-    <priority>0.80</priority>
-    <changefreq>weekly</changefreq>
-  </url>
-  <url>
-    <loc>https://your-domain.com/reviews</loc>
-    <priority>0.80</priority>
+    <loc>https://emmanueloyebimpe.vercel.app/</loc>
+    <lastmod>2025-01-01</lastmod>
     <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://emmanueloyebimpe.vercel.app/proj</loc>
+    <lastmod>2025-01-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://emmanueloyebimpe.vercel.app/reviews</loc>
+    <lastmod>2025-01-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
   </url>
 
   <!-- Project Pages -->
   <url>
-    <loc>https://your-domain.com/projects/amaze-visuals</loc>
-    <priority>0.64</priority>
-    <changefreq>yearly</changefreq>
+    <loc>https://emmanueloyebimpe.vercel.app/projects/amaze-visuals</loc>
+    <lastmod>2025-01-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://your-domain.com/projects/apple-experience</loc>
-    <priority>0.64</priority>
-    <changefreq>yearly</changefreq>
-  </url>
-    <url>
-    <loc>https://your-domain.com/projects/beta-buddy</loc>
-    <priority>0.64</priority>
-    <changefreq>yearly</changefreq>
+    <loc>https://emmanueloyebimpe.vercel.app/projects/apple-experience</loc>
+    <lastmod>2025-01-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://your-domain.com/projects/cinestar</loc>
-    <priority>0.64</priority>
-    <changefreq>yearly</changefreq>
+    <loc>https://emmanueloyebimpe.vercel.app/projects/beta-buddy</loc>
+    <lastmod>2025-01-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://your-domain.com/projects/clean-board</loc>
-    <priority>0.64</priority>
-    <changefreq>yearly</changefreq>
+    <loc>https://emmanueloyebimpe.vercel.app/projects/cinestar</loc>
+    <lastmod>2025-01-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://your-domain.com/projects/crypto-pulse</loc>
-    <priority>0.64</priority>
-    <changefreq>yearly</changefreq>
+    <loc>https://emmanueloyebimpe.vercel.app/projects/clean-board</loc>
+    <lastmod>2025-01-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://your-domain.com/projects/final-clue</loc>
-    <priority>0.64</priority>
-    <changefreq>yearly</changefreq>
+    <loc>https://emmanueloyebimpe.vercel.app/projects/crypto-pulse</loc>
+    <lastmod>2025-01-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://your-domain.com/projects/instant-download</loc>
-    <priority>0.64</priority>
-    <changefreq>yearly</changefreq>
+    <loc>https://emmanueloyebimpe.vercel.app/projects/final-clue</loc>
+    <lastmod>2025-01-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://your-domain.com/projects/just-emma</loc>
-    <priority>0.64</priority>
-    <changefreq>yearly</changefreq>
+    <loc>https://emmanueloyebimpe.vercel.app/projects/instant-download</loc>
+    <lastmod>2025-01-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://your-domain.com/projects/open-port</loc>
-    <priority>0.64</priority>
-    <changefreq>yearly</changefreq>
+    <loc>https://emmanueloyebimpe.vercel.app/projects/just-emma</loc>
+    <lastmod>2025-01-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://your-domain.com/projects/outdoor-landscape</loc>
-    <priority>0.64</priority>
-    <changefreq>yearly</changefreq>
+    <loc>https://emmanueloyebimpe.vercel.app/projects/open-port</loc>
+    <lastmod>2025-01-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://your-domain.com/projects/smart-stack</loc>
-    <priority>0.64</priority>
-    <changefreq>yearly</changefreq>
+    <loc>https://emmanueloyebimpe.vercel.app/projects/outdoor-landscape</loc>
+    <lastmod>2025-01-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://emmanueloyebimpe.vercel.app/projects/smart-stack</loc>
+    <lastmod>2025-01-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
   </url>
 </urlset> 

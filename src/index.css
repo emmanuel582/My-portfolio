@@ -674,6 +674,17 @@ body {
   .custom-cursor {
     display: none;
   }
+  .overallcontainer,
+  .project-wrapper,
+  .hero-container,
+  .carousel-container,
+  .content-section {
+    text-align: center !important;
+    align-items: center !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    justify-content: center !important;
+  }
 }
 
 /* Mobile Large */
@@ -815,6 +826,18 @@ body {
   .dot {
     width: 8px;
     height: 8px;
+  }
+
+  .overallcontainer,
+  .project-wrapper,
+  .hero-container,
+  .carousel-container,
+  .content-section {
+    text-align: center !important;
+    align-items: center !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    justify-content: center !important;
   }
 }
 
