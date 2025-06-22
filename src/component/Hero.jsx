@@ -64,7 +64,7 @@ function Hero() {
           animate={{ opacity: 1 }}
           transition={{ delay: 2.4, duration: 1 }}
         >
-          {'Software Engineer'.split('').map((char, i) => (
+          {'Software Developer'.split('').map((char, i) => (
             <motion.span
               key={i}
               initial={{ opacity: 0, y: 10 }}
