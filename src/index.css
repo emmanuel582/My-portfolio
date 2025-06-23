@@ -131,8 +131,8 @@ body {
 
 /* Add padding back for all components except Project */
 .overallcontainer > *:not(.project-wrapper) {
-  padding-left: 2rem;
-  padding-right: 2rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
 }
 
 /* ===== HEADER STYLES ===== */
@@ -143,7 +143,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  top: 2rem;
+  top: 1rem;
   padding: 1rem;
   z-index: 999;
   width: auto;
@@ -286,19 +286,208 @@ body {
 /* ===== HERO SECTION ===== */
 .hero-wrapper {
   position: relative;
-  min-height: 100vh;
+  min-height:45vh;
   display: flex;
   flex-direction: column;
+  margin-top: 4rem;
   align-items: center;
   justify-content: center;
   padding: 2rem 1rem;
-  padding-top: 8rem;
+  padding-top: 5rem;
   width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
+/* iPhone SE */
+@media only screen 
+  and (device-width: 375px) 
+  and (device-height: 667px) 
+  and (-webkit-device-pixel-ratio: 2) {
+  /* iPhone SE styles */
+  .hero-wrapper{
+    margin-top:5rem;
+  }
 
+}
+
+/* iPhone XR */
+@media only screen 
+  and (device-width: 414px) 
+  and (device-height: 896px) 
+  and (-webkit-device-pixel-ratio: 2) {
+  /* iPhone XR styles */
+}
+
+/* iPhone 12 Pro */
+@media only screen 
+  and (device-width: 390px) 
+  and (device-height: 844px) 
+  and (-webkit-device-pixel-ratio: 3) {
+  /* iPhone 12 Pro styles */
+}
+
+/* iPhone 14 Pro Max */
+@media only screen 
+  and (device-width: 430px) 
+  and (device-height: 932px) 
+  and (-webkit-device-pixel-ratio: 3) {
+  /* iPhone 14 Pro Max styles */
+}
+
+/* Google Pixel 7 */
+@media only screen 
+  and (device-width: 412px) 
+  and (device-height: 915px) 
+  and (-webkit-device-pixel-ratio: 2.625) {
+  /* Pixel 7 styles */
+}
+
+/* Samsung Galaxy S8+ */
+@media only screen 
+  and (device-width: 360px) 
+  and (device-height: 740px) 
+  and (-webkit-device-pixel-ratio: 4) {
+  /* Galaxy S8+ styles */
+}
+
+/* Samsung Galaxy S20 Ultra */
+@media only screen 
+  and (device-width: 412px) 
+  and (device-height: 915px) 
+  and (-webkit-device-pixel-ratio: 3.5) {
+  /* Galaxy S20 Ultra styles */
+}
+
+/* iPad Mini */
+@media only screen 
+  and (device-width: 768px) 
+  and (device-height: 1024px) 
+  and (-webkit-device-pixel-ratio: 2) {
+  /* iPad Mini styles */
+}
+
+/* iPad Air */
+@media only screen 
+  and (device-width: 820px) 
+  and (device-height: 1180px) 
+  and (-webkit-device-pixel-ratio: 2) {
+  /* iPad Air styles */
+}
+
+/* iPad Pro */
+@media only screen 
+  and (device-width: 1024px) 
+  and (device-height: 1366px) 
+  and (-webkit-device-pixel-ratio: 2) {
+  /* iPad Pro 12.9" styles */
+}
+
+/* Surface Pro 7 */
+@media only screen 
+  and (device-width: 912px) 
+  and (device-height: 1368px) 
+  and (-webkit-device-pixel-ratio: 2) {
+  /* Surface Pro 7 styles */
+}
+
+/* Surface Duo */
+@media only screen 
+  and (device-width: 540px) 
+  and (device-height: 720px) 
+  and (-webkit-device-pixel-ratio: 2.5) {
+  /* Surface Duo single screen styles */
+}
+
+@media only screen 
+  and (device-width: 1114px) 
+  and (device-height: 720px) 
+  and (-webkit-device-pixel-ratio: 2.5) {
+  /* Surface Duo dual screen styles */
+}
+
+/* Galaxy Z Fold 5 */
+@media only screen 
+  and (device-width: 344px) 
+  and (device-height: 882px) 
+  and (-webkit-device-pixel-ratio: 3) {
+  /* Galaxy Z Fold 5 cover screen styles */
+}
+
+@media only screen 
+  and (device-width: 768px) 
+  and (device-height: 1812px) 
+  and (-webkit-device-pixel-ratio: 3) {
+  /* Galaxy Z Fold 5 main screen styles */
+}
+
+/* Asus Zenbook Fold */
+@media only screen 
+  and (device-width: 1920px) 
+  and (device-height: 1280px) 
+  and (-webkit-device-pixel-ratio: 1.5) {
+  /* Asus Zenbook Fold styles */
+}
+
+/* Samsung Galaxy A51/71 */
+@media only screen 
+  and (device-width: 412px) 
+  and (device-height: 914px) 
+  and (-webkit-device-pixel-ratio: 2) {
+  /* Galaxy A51/A71 styles */
+}
+
+/* Nest Hub */
+@media only screen 
+  and (device-width: 1024px) 
+  and (device-height: 600px) 
+  and (-webkit-device-pixel-ratio: 2) {
+  .carousel-container,
+  .StackCarousel,
+  .project-wrapper {
+    margin-left: auto !important;
+    margin-right: auto !important;
+    left: 0 !important;
+    right: 0 !important;
+    transform: none !important;
+    display: block;
+  }
+}
+
+/* Nest Hub Max */
+@media only screen 
+  and (device-width: 1280px) 
+  and (device-height: 800px) 
+  and (-webkit-device-pixel-ratio: 2) {
+  /* Nest Hub Max styles */
+}
+
+/* Alternative approach using viewport dimensions (more commonly used) */
+
+/* Mobile devices (general) */
+@media screen and (max-width: 480px) {
+  /* Small mobile styles */
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  /* Large mobile/small tablet styles */
+}
+
+/* Tablets */
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  /* Tablet styles */
+}
+
+/* Desktop */
+@media screen and (min-width: 1025px) {
+  /* Desktop styles */
+}
+
+/* High DPI displays */
+@media screen and (-webkit-min-device-pixel-ratio: 2),
+       screen and (min-resolution: 192dpi) {
+  /* High DPI styles */
+}
 .animated-background {
   position: absolute;
   top: 0;
@@ -463,7 +652,7 @@ body {
   padding: 40px 0;
   background: transparent;
   min-height: 380px;
-  margin-top: 2rem;
+
 }
 
 .carousel-track {
@@ -638,8 +827,8 @@ body {
   }
 
   .overallcontainer > *:not(.project-wrapper) {
-    padding-left: 1.5rem;
-    padding-right: 1.5rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
   }
 
   .header {
@@ -671,7 +860,7 @@ body {
     cursor: auto !important;
   }
   .About {
-    margin-top: -4rem;
+   
   }
   .custom-cursor {
     display: none;
@@ -694,10 +883,12 @@ body {
   .overallcontainer {
     max-width: 100%;
   }
-
+  .hero-wrapper{
+    margin-top:5rem;
+  }
   .overallcontainer > *:not(.project-wrapper) {
-    padding-left: 1rem;
-    padding-right: 1rem;
+    padding-left: 2.5rem;
+    padding-right:2.5rem;
   }
 
   .header {
@@ -751,8 +942,8 @@ body {
 /* Mobile Small */
 @media (max-width: 480px) {
   .overallcontainer > *:not(.project-wrapper) {
-    padding-left: 0.75rem;
-    padding-right: 0.75rem;
+    padding-left: 2rem;
+    padding-right:2rem;
   }
 
   .header {
@@ -813,13 +1004,13 @@ body {
   }
 
   .glass-card {
-    width: 600px;
-    height: 500px;
-    padding: 1rem;
+    width: 300px;
+    height: 200px;
+    padding: 0.5rem;
   }
 
   .carousel-track {
-    gap: 15px;
+    gap: 8px;
   }
 
   .inner-border {
@@ -847,13 +1038,19 @@ body {
     margin-right: auto !important;
     justify-content: flex-start !important;
   }
+
+  .nav-text {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    display: inline-block;
+  }
 }
 
 /* Extra Small Mobile */
 @media (max-width: 320px) {
   .overallcontainer > *:not(.project-wrapper) {
-    padding-left: 0.5rem;
-    padding-right: 0.5rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
   }
 
   .glass-card {
@@ -875,7 +1072,7 @@ body {
 
 /* About */
 .About {
-  padding-top: 10rem;
+
   text-align: left;
 }
 .About h2 {
@@ -884,7 +1081,7 @@ body {
   text-align: left;
 }
 .abouttext {
-  padding-top: 2rem;
+
   color: #666;
   line-height: 1.6;
   font-size: 1rem;
@@ -975,4 +1172,23 @@ html, body {
 .project-wrapper,
 #root {
   scroll-behavior: auto !important;
+}
+
+@media only screen and (device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2) {
+  .nav-text {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    display: inline-block;
+  }
+}
+
+@media (max-width: 550px) {
+  .aboutimgcon {
+    width: 230px !important;
+    height: 150px !important;
+  }
+  .about-img {
+    width: 130px !important;
+    height: 130px !important;
+  }
 }

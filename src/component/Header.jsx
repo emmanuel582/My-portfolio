@@ -75,7 +75,7 @@ function Header() {
           <div className="separator"></div>
 
           <Link to="/reviews" className="nav-item blog-item reviews-item">
-            Reviews
+            <span className="nav-text">My wins</span>
           </Link>
         </nav>
       </header>

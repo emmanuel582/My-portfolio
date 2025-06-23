@@ -1,17 +1,35 @@
 import React, { useState } from 'react';
 
-// Import your five unique images
-import image1 from '../assets/certificate5.png';
-import image2 from '../assets/Certificate1.jpg';
-import image3 from '../assets/Certificate2.png';
-import image4 from '../assets/Certificate3.png';
-import image5 from '../assets/Certificate4.png';
+// Import V1 images from ProjectAsset
+import AmazeVisualsV1 from '../assets/ProjectAsset/AmazeVisualsV1.png';
+import AppleExperienceV1 from '../assets/ProjectAsset/AppleExperienceV1.png';
+import BEtaBuddyV1 from '../assets/ProjectAsset/BEtaBuddyV1.png';
+import CinetsarV1 from '../assets/ProjectAsset/CinetsarV1.png';
+import CleanBoardv1 from '../assets/ProjectAsset/CleanBoardv1.png';
+import FinalClueV1 from '../assets/ProjectAsset/FinalClueV1.png';
+import InstantDownloadV1 from '../assets/ProjectAsset/InstantDownloadV1.png';
+import JustEmmaV1 from '../assets/ProjectAsset/JustEmmaV1.png';
+import OpenPortv1 from '../assets/ProjectAsset/OpenPortv1.png';
+import OutdoorLandcsapeV1 from '../assets/ProjectAsset/OutdoorLandcsapeV1.png';
+import SmartStackv1 from '../assets/ProjectAsset/SmartStackv1.png';
 
 const GlassCarousel = () => {
   const [isPaused, setIsPaused] = useState(false);
 
-  // Create an array of image sources
-  const imageSources = [image1, image2, image3, image4, image5];
+  // Array of V1 project images
+  const imageSources = [
+    AmazeVisualsV1,
+    AppleExperienceV1,
+    BEtaBuddyV1,
+    CinetsarV1,
+    CleanBoardv1,
+    FinalClueV1,
+    InstantDownloadV1,
+    JustEmmaV1,
+    OpenPortv1,
+    OutdoorLandcsapeV1,
+    SmartStackv1,
+  ];
 
   // Map the imageSources to carousel items
   const carouselItems = imageSources.map((img, idx) => ({
@@ -56,7 +74,7 @@ const GlassCarousel = () => {
 
               <div className="inner-border">
                 <div className="image-container">
-                  <img src={item.image} alt={`Carousel item ${item.id}`} />
+                  <img src={item.image} alt={`Project V1 Carousel item ${item.id}`} />
                 </div>
               </div>
             </div>

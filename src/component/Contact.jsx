@@ -42,8 +42,7 @@ export default function Contact() {
       <div style={styles.footerWrap}>
         <div style={styles.footerLine}></div>
         <div style={styles.footerText}>
-          <span>© 2025 · Designed & Built with <span style={{color:'#111'}}>♥</span> by Oyebimpe Emmanuel</span>
-          <div style={styles.footerSub}>Inspired by Oyebimpe Emmanuel</div>
+          <span>© 2025 · Designed & Built by Oyebimpe Emmanuel</span>
         </div>
       </div>
       <style>{`
