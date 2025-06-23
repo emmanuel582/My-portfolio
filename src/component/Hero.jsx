@@ -44,14 +44,14 @@ function Hero() {
           className="hero-name"
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
-          transition={{ delay: 1.4, duration: 1 }}
+          transition={{ delay: 0.5, duration: 0.7 }}
         >
           {'Hey, I\'m Oyebimpe Emmanuel.'.split('').map((char, i) => (
             <motion.span
               key={i}
               initial={{ opacity: 0, y: 10 }}
               animate={{ opacity: 1, y: 0 }}
-              transition={{ delay: 1.5 + i * 0.03 }}
+              transition={{ delay: 0.6 + i * 0.01 }}
             >
               {char}
             </motion.span>

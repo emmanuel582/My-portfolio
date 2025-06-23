@@ -14,6 +14,8 @@ import ProfessionalTimeline from "./component/Experience.jsx"
 import TechStack from "./component/Technology.jsx"
 import Contact from "./component/Contact.jsx"
 import Reviews from "./component/Reviews.jsx"
+import ResumeView from "./component/ResumeView.jsx"
+import Certificates from "./component/Certificates.jsx"
 import CineStar from './Projects/CineStar.jsx';
 import CleanBoard from './Projects/CleanBoard.jsx';
 import AmazeVisuals from './Projects/AmazeVisuals.jsx';
@@ -142,6 +144,16 @@ createRoot(document.getElementById('root')).render(
         <Route path="/reviews" element={
           <FadeInWrapper>
             <Reviews />
+          </FadeInWrapper>
+        } />
+        <Route path="/resume" element={
+          <FadeInWrapper>
+            <ResumeView />
+          </FadeInWrapper>
+        } />
+        <Route path="/certificates" element={
+          <FadeInWrapper>
+            <Certificates />
           </FadeInWrapper>
         } />
         <Route path="/projects" element={

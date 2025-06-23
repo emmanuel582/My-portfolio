@@ -1,20 +1,9 @@
 import React, { useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { Home, Github, FileText, Instagram } from 'lucide-react';
-import Resume from '../assets/Resume.pdf';
 
 function Header() {
   const location = useLocation();
-
-  const handleDownloadResume = () => {
-    // Create a link element
-    const link = document.createElement('a');
-    link.href = Resume;
-    link.download = 'Oyebimpe_Emmanuel_Resume.pdf';
-    document.body.appendChild(link);
-    link.click();
-    document.body.removeChild(link);
-  };
 
   useEffect(() => {
     const nav = document.querySelector('.nav-container');
@@ -68,9 +57,9 @@ function Header() {
             <Github size={20} />
           </a>
 
-          <div className="nav-item" data-tooltip="Resume" onClick={handleDownloadResume} style={{ cursor: 'pointer' }}>
+          <Link to="/resume" className="nav-item" data-tooltip="Resume">
             <FileText size={20} />
-          </div>
+          </Link>
 
           <div className="separator"></div>
 

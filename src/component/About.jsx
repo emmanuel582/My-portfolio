@@ -15,7 +15,7 @@ function About(){
   </p>
   <br />
   <p className="abouttxtthree">
-    A self-taught developer based in Ibadan, I combine my passion for tech and medicine with a strong background in network marketing as a partner at NeoLife. I’m driven by purpose, growth, and helping others elevate through technology and opportunity.
+    A self-taught developer based in Ibadan, I combine my passion for tech and medicine with a strong background in network marketing as a partner at NeoLife. I'm driven by purpose, growth, and helping others elevate through technology and opportunity.
   </p>
 </div>
 

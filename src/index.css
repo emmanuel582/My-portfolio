@@ -145,9 +145,14 @@ body {
   align-items: center;
   top: 2rem;
   padding: 1rem;
-  z-index: 999;
+  z-index: 9999;
   width: auto;
   max-width: calc(100vw - 2rem);
+  background: rgba(255, 255, 255, 0.95);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 15px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
 }
 
 .nav-container {
