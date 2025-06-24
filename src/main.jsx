@@ -13,7 +13,7 @@ import Projects from './Projects/Projects.jsx';
 import ProfessionalTimeline from "./component/Experience.jsx"
 import TechStack from "./component/Technology.jsx"
 import Contact from "./component/Contact.jsx"
-import MyWins from "./component/MyWins.jsx"
+import Journal from "./component/Journal.jsx"
 import CineStar from './Projects/CineStar.jsx';
 import CleanBoard from './Projects/CleanBoard.jsx';
 import AmazeVisuals from './Projects/AmazeVisuals.jsx';
@@ -29,6 +29,7 @@ import SmartStack from './Projects/SmartStack.jsx';
 import SEO from './component/SEO.jsx';
 import { motion } from 'framer-motion';
 import { useEffect } from 'react';
+import NotFound from "./component/NotFound.jsx"
 
 // Custom hook for reliable scroll to top
 const useScrollToTop = () => {
@@ -139,9 +140,9 @@ createRoot(document.getElementById('root')).render(
             <Contact/>
           </div>
         } />
-        <Route path="/my-wins" element={
+        <Route path="/journal" element={
           <FadeInWrapper>
-            <MyWins />
+            <Journal />
           </FadeInWrapper>
         } />
         <Route path="/projects" element={
@@ -235,6 +236,9 @@ createRoot(document.getElementById('root')).render(
             </div>
           </FadeInWrapper>
         } />
+        
+        {/* 404 Page - Catch all unmatched routes */}
+        <Route path="*" element={<NotFound />} />
       </Routes>
     </BrowserRouter>
   </StrictMode>,
