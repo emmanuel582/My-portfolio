@@ -6,7 +6,6 @@ import CinetsarV1 from '../assets/ProjectAsset/CinetsarV1.png';
 import CleanBoardv1 from '../assets/ProjectAsset/CleanBoardv1.png';
 import AmazeVisualsV1 from '../assets/ProjectAsset/AmazeVisualsV1.png';
 import { ChevronRight } from 'lucide-react';
-import Header from './Header';
 
 const projects = [
   {
@@ -61,7 +60,6 @@ const itemVariants = {
 function Project() {
   return (
     <>
-      <Header />
       <div className="project-wrapper extended">
         <motion.h1 
           className='Theheading'

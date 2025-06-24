@@ -34,7 +34,6 @@ import BetaBuddyV2 from '../assets/ProjectAsset/BetaBuddyV2.png';
 import BetaBuddyV3 from '../assets/ProjectAsset/BetaBuddyV3.png';
 import { ChevronRight } from 'lucide-react';
 import Footer from '../component/Footer';
-import Header from '../component/Header';
 import SEO from '../component/SEO';
 
 const projects = [
@@ -156,7 +155,6 @@ function Projects() {
         description="Browse the full collection of projects by Oyebimpe Emmanuel, showcasing a wide range of skills in software engineering, web development, and penetration testing."
         url="https://emmanueloyebimpe.vercel.app/proj"
       />
-      <Header />
       <div className="project-wrapper extended">
         <style jsx>{`
           .Theheading{
@@ -434,7 +432,7 @@ function Projects() {
                 <p className="project-desc">{project.description}</p>
                 {project.disabled ? (
                   <button className="project-btn" disabled>
-                    Coming Soon <span className="arrow">&#8594;</span>
+                    View Project <span className="arrow">&#8594;</span>
                   </button>
                 ) : (
                   <Link className="project-btn" to={project.link}>

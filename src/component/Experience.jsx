@@ -30,16 +30,17 @@ const ProfessionalTimeline = () => {
           ]
         },
         {
-          title: "Senior Frontend Developer",
+          title: "Senior Frontend Developer | NextTrendAi",
           company: "NextTrendAi",
-          period: "Jan 2023 – Present",
+          period: "January 2023 - Present",
           location: "Remote",
           responsibilities: [
-            "Revamped high-traffic interfaces serving 10,000+ users — achieving frictionless digital experiences.",
-            "Partnered with product and backend teams to translate complex requirements into intuitive UIs.",
-            "Drove a 15% increase in user retention by simplifying onboarding workflows and improving accessibility."
+            "Built and scaled the frontend of an upcoming African creator analytics platform designed to help video creators track content trends, SEO performance, and audience insights.",
+            "Engineered responsive dashboards for early testers, supporting 10,000+ preview users across mobile and web platforms.",
+            "Collaborated with product and Al teams to visualize performance metrics, trending topics, and keyword rankings tailored to the African digital landscape.",
+            "Improved user engagement by simplifying onboarding and designing intuitive interfaces for creators with varying technical experience."
           ],
-          technologies: ["React", "Golang", "Tailwind CSS"]
+          technologies: ["React", "TypeScript", "Golang", "Tailwind CSS", "Chart.js"]
         },
         {
           title: "Fullstack Developer",

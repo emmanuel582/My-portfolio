@@ -7,15 +7,15 @@ function About(){
 <h2>About</h2>
 <div className="abouttext">
   <p className="abouttxtone">
-    I love building solid, scalable products with sleek user experiences—fusing innovation and precision to solve real-world problems across multiple fields.
+    I’m a Full-stack Developer with a passion for building intuitive, high-impact solutions for fast-growing startups and financial institutions. My goal? Real products that work—clean, fast, and user-first.
   </p>
   <br />
   <p className="abouttxttwo">
-    I'm Oyebimpe Emmanuel, an 18-year-old medical student at the University of Ibadan and one of the top-ranked programmers in the school. With 5+ years of hands-on experience in web and app development, penetration testing, networking, and cloud computing, I build secure, intelligent solutions that stand out.
+    I'm Oyebimpe Emmanuel, an 18-year-old self-taught developer and medical student at the University of Ibadan. With 5+ years of experience, I specialize in web/app development, penetration testing, and cloud infrastructure.
   </p>
   <br />
   <p className="abouttxtthree">
-    A self-taught developer based in Ibadan, I combine my passion for tech and medicine with a strong background in network marketing as a partner at NeoLife. I’m driven by purpose, growth, and helping others elevate through technology and opportunity.
+    Started coding in 2019. Self-taught programmer with proven experience in building live projects. I'm passionate about solving Africa's real problems through tech. Also a partner at NeoLife, with a strong background in network marketing.
   </p>
 </div>
 

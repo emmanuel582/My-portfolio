@@ -13,7 +13,7 @@ import Projects from './Projects/Projects.jsx';
 import ProfessionalTimeline from "./component/Experience.jsx"
 import TechStack from "./component/Technology.jsx"
 import Contact from "./component/Contact.jsx"
-import Reviews from "./component/Reviews.jsx"
+import MyWins from "./component/MyWins.jsx"
 import CineStar from './Projects/CineStar.jsx';
 import CleanBoard from './Projects/CleanBoard.jsx';
 import AmazeVisuals from './Projects/AmazeVisuals.jsx';
@@ -139,9 +139,9 @@ createRoot(document.getElementById('root')).render(
             <Contact/>
           </div>
         } />
-        <Route path="/reviews" element={
+        <Route path="/my-wins" element={
           <FadeInWrapper>
-            <Reviews />
+            <MyWins />
           </FadeInWrapper>
         } />
         <Route path="/projects" element={
