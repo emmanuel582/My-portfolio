@@ -13,86 +13,84 @@ const ProfessionalTimeline = () => {
     };
 
     const experiences = [
-        {
-          title: "Fullstack Developer & Ethical Hacker",
-          company: "Active Freelancer",
-          period: "Jan 2025 – Present",
-          location: "Remote",
-          responsibilities: [
-            "Identified and responsibly disclosed critical vulnerabilities on major platforms, enhancing user trust and platform resilience.",
-            "Engineered secure, scalable full-stack applications tailored to the limitations of emerging markets, especially in Africa.",
-            "Redesigned user flows and UI logic, boosting platform efficiency and conversion by over 15%."
-          ],
-          technologies: [
-            "React",  "Tailwind CSS", "BurpSuite", "Golang",
-            "Next.js", "Node.js", "Express.js", "MongoDB", "PostgreSQL",
-            "Prisma", "Figma"
-          ]
-        },
-        {
-          title: "Senior Frontend Developer | NextTrendAi",
-          company: "NextTrendAi",
-          period: "January 2023 - Present",
-          location: "Remote",
-          responsibilities: [
-            "Built and scaled the frontend of an upcoming African creator analytics platform designed to help video creators track content trends, SEO performance, and audience insights.",
-            "Engineered responsive dashboards for early testers, supporting 10,000+ preview users across mobile and web platforms.",
-            "Collaborated with product and Al teams to visualize performance metrics, trending topics, and keyword rankings tailored to the African digital landscape.",
-            "Improved user engagement by simplifying onboarding and designing intuitive interfaces for creators with varying technical experience."
-          ],
-          technologies: ["React", "TypeScript", "Golang", "Tailwind CSS", "Chart.js"]
-        },
-        {
-          title: "Fullstack Developer",
-          company: "Saint Isabel",
-          period: "Jan 2025 – Present",
-          location: "Nigeria",
-          responsibilities: [
-            "Built end-to-end platforms tailored for education, helping students connect with digital tools effortlessly.",
-            "Created robust RESTful APIs to seamlessly power front-end systems.",
-            "Enhanced system performance, reducing load times by 40% and elevating user satisfaction metrics."
-          ],
-          technologies: ["Node.js", "React", "MongoDB"]
-        },
-        {
-          title: "Frontend Developer Intern",
-          company: "ALX Africa",
-          period: "Jan 2025 – Sep 2025",
-          location: "Remote",
-          responsibilities: [
-            "Delivered clean, modern interfaces for university platforms — ensuring intuitive navigation for both students and faculty.",
-            "Designed responsive UI components for desktop and mobile, increasing platform usability across devices.",
-            "Collaborated in agile teams to implement accessibility-focused features, setting new internal UX benchmarks."
-          ],
-          technologies: ["JavaScript", "React", "REST APIs"]
-        },
-        {
-            title: "Help Desk & IT Support Specialist",
-            company: "Sharma Security Team",
-            period: "Jun 2025 – Aug 2025",
-            location: "Remote",
-            responsibilities: [
-              "Provided Tier 1 and Tier 2 support for system and network-related issues, resolving over 150 support tickets within SLA.",
-              "Diagnosed security vulnerabilities, performed basic audits, and escalated critical threats — paving the way for deeper involvement in cybersecurity.",
-              "Collaborated with the infrastructure team to document internal networks, identify risky endpoints, and support endpoint protection rollouts."
-            ],
-            technologies: ["Linux", "Windows Server", "Wireshark", "Nmap", "Remote Desktop", "Firebase"]
-          }
-          ,
-        {
-            title: "Medical Data Researcher & Frontend Developer",
-            company: "UI Research Lab",
-            period: "Jan 2025 – Present",
-            location: "Remote",
-            responsibilities: [
-              "Analyzed vast datasets of medical case studies and patient trends to build visual insights for healthcare professionals.",
-              "Developed custom dashboards and frontend tools that made complex data accessible to non-technical medical teams.",
-              "Used React, Python, and APIs to automate data classification, reducing manual sorting time by 60%."
-            ],
-            technologies: ["Python", "Pandas", "React", "Chart.js", "REST APIs", "Firebase"]
-          }
-          
-      ];
+      {
+        title: "Full-Stack Developer & Ethical Hacker",
+        company: "Active Freelancer",
+        period: "January 2024 – Present",
+        location: "Remote",
+        responsibilities: [
+          "Identified and disclosed critical vulnerabilities on major platforms, enhancing user trust and platform resilience.",
+          "Engineered secure, scalable applications tailored for emerging markets, especially Africa.",
+          "Redesigned user flows and UI logic, boosting platform efficiency and conversion by 15%+"
+        ],
+        technologies: [
+          "React", "Next.js", "Node.js", "BurpSuite", "Golang",
+          "MongoDB", "PostgreSQL"
+        ]
+      },
+      {
+        title: "Senior Frontend Developer",
+        company: "NextTrendAi",
+        period: "January 2023 – Present",
+        location: "Remote",
+        responsibilities: [
+          "Built and scaled the frontend of an upcoming African creator analytics platform designed to help video creators track content trends, SEO performance, and audience insights.",
+          "Engineered responsive dashboards for early testers, supporting 10,000+ preview users across mobile and web platforms.",
+          "Collaborated with product and AI teams to visualize performance metrics, trending topics, and keyword rankings tailored to the African digital landscape.",
+          "Improved user engagement by simplifying onboarding and designing intuitive interfaces for creators with varying technical experience."
+        ],
+        technologies: ["React", "TypeScript", "Golang", "Tailwind CSS", "Chart.js"]
+      },
+      {
+        title: "Full-Stack Developer",
+        company: "Saint Isabel",
+        period: "January 2025 – Present",
+        location: "Nigeria",
+        responsibilities: [
+          "Built end-to-end educational platforms connecting students with digital tools effortlessly.",
+          "Created robust RESTful APIs to seamlessly power front-end systems.",
+          "Enhanced system performance, reducing load times by 40% and elevating user satisfaction metrics."
+        ],
+        technologies: ["Node.js", "React", "MongoDB"]
+      },
+      {
+        title: "IT Support & Security Specialist",
+        company: "Sharma Security Team",
+        period: "June 2024 – August 2024",
+        location: "Remote",
+        responsibilities: [
+          "Resolved 150+ support tickets within SLA for system and network-related issues.",
+          "Diagnosed security vulnerabilities and performed basic audits, escalating critical threats.",
+          "Collaborated on endpoint protection rollouts and documented internal network security protocols."
+        ],
+        technologies: ["Linux", "Windows Server", "Wireshark", "Nmap"]
+      },
+      {
+        title: "Medical Data Researcher & Frontend Developer",
+        company: "UI Research Lab",
+        period: "January 2024 – Present",
+        location: "Remote",
+        responsibilities: [
+          "Analyzed vast medical datasets to build visual insights for healthcare professionals.",
+          "Developed user-centric dashboards making complex data accessible to non-technical medical teams.",
+          "Automated data classification using React and Python, reducing manual sorting time by 60%."
+        ],
+        technologies: ["Python", "Pandas", "React", "Chart.js", "REST APIs"]
+      },
+      {
+        title: "Frontend Developer Intern",
+        company: "ALX Africa",
+        period: "January 2024 – September 2024",
+        location: "Remote",
+        responsibilities: [
+          "Delivered modern, clean interfaces for university platforms with intuitive navigation.",
+          "Designed responsive UI components for desktop and mobile, increasing platform usability.",
+          "Implemented accessibility-focused features, setting new internal UX benchmarks."
+        ],
+        technologies: ["JavaScript", "React", "REST APIs"]
+      }
+    ];
+    
       
 
   return (
