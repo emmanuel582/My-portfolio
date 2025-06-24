@@ -11,7 +11,7 @@ function About(){
   </p>
   <br />
   <p className="abouttxttwo">
-    I'm Oyebimpe Emmanuel, an 18-year-old self-taught developer and medical student at the University of Ibadan. With 5+ years of experience, I specialize in web/app development, penetration testing, and cloud infrastructure.
+    I'm Oyebimpe Emmanuel, a self-taught developer and medical student at the University of Ibadan. With 5+ years of experience, I specialize in web/app development, penetration testing, and cloud infrastructure.
   </p>
   <br />
   <p className="abouttxtthree">
